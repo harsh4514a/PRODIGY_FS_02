@@ -54,23 +54,8 @@ Bcrypt password hashing
 Express Validator
 
 📂 Project Structure
-Employee-Management-System/
-│
-├── backend/
-│   ├── server.js
-│   ├── db.sqlite
-│   ├── package.json
-│   └── .env
-│
-└── client/
-    ├── src/
-    │   ├── App.jsx
-    │   ├── api.js
-    │   ├── styles.css
-    │   └── main.jsx
-    ├── index.html
-    ├── package.json
-    └── vite.config.js
+<img width="208" height="344" alt="image" src="https://github.com/user-attachments/assets/45cda340-ce09-4d51-ab8d-d12a600c4b7b" />
+
 
 ⚙️ Backend Setup
 1️⃣ Install dependencies
