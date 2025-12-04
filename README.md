@@ -1,144 +1,119 @@
-**📘 Employee Management System (Full-Stack Project)**
+# 📘 Employee Management System (Full-Stack Project)
 
-A simple and secure Employee Management System built using the MERN-style architecture (React + Node.js) with SQLite (SQL database).
-This project allows admins to manage employee records with full CRUD operations.
+**A simple and secure Employee Management System built using the MERN-style architecture (React + Node.js) with SQLite (SQL database).
+This project allows admins to manage employee records with full CRUD operations.**
 
-✔ Add Employee
-
-✔ View Employee List
-
-✔ Update Employee
-
-✔ Delete Employee
-
-✔ Admin Login (JWT)
-
-✔ SQL Database (SQLite)
-
-✔ Clean Dark UI
+- Add Employee-
+-  View Employee List
+- Update Employee
+- Delete Employee
+- Admin Login (JWT)
+- SQL Database (SQLite)
+- Clean Dark UI
 
 Built as part of Prodigy InfoTech – Full-Stack Web Development Internship.
 
 
-**🚀 Features**
+## 🚀 Features
 
 
-**🔐 Authentication**
+### 🔐 Authentication
 
-Admin Login (JWT based)
-
-Default Admin:
-
-username: admin
-
-password: admin123
+- Admin Login (JWT based)
+- Default Admin:
+- username: admin
+- password: admin123
 
 
-**👨‍💼 Employee Management (CRUD)**
+### 👨‍💼 Employee Management (CRUD)
 
-Add new employees
-
-View list of employees
-
-Update employee details
-
-Delete employee
-
-Server-side validation
-
-SQL database storage (SQLite)
+- Add new employees
+- View list of employees
+- Update employee details
+- Delete employee
+- Server-side validation
+- SQL database storage (SQLite)
 
 
-**🎨 Frontend UI**
+### 🎨 Frontend UI
 
-Modern dark dashboard
-
-Responsive design
-
-Employee avatars
-
-Search filter
-
-Clean table layout
+- Modern dark dashboard
+- Responsive design
+- Employee avatars
+- Search filter
+- Clean table layout
 
 
-**🛠 Tech Stack**
+## 🛠 Tech Stack
 
-**Frontend:**
+### Frontend:
 
-React (Vite)
-
-Axios
-
-CSS3 Custom UI
+- React (Vite)
+- Axios
+- CSS3 Custom UI
 
 
-**Backend:**
+### Backend:
 
-Node.js
-
-Express.js
-
-SQLite database
-
-JWT Authentication
-
-Bcrypt password hashing
-
-Express Validator
+- Node.js
+- Express.js
+- SQLite database
+- JWT Authentication
+- Bcrypt password hashing
+- Express Validator
 
 
-**📂 Project Structure**
+## 📂 Project Structure
 
 <img width="208" height="344" alt="image" src="https://github.com/user-attachments/assets/45cda340-ce09-4d51-ab8d-d12a600c4b7b" />
 
 
-**⚙️ Backend Setup**
+## ⚙️ Backend Setup
 
-1️⃣ Install dependencies
-
+### 1️⃣ Install dependencies
+```bash
 cd backend
 
 npm install
+```
+### 2️⃣ Create .env file
+```bash
+  PORT=4000
 
-2️⃣ Create .env file
+  JWT_SECRET=your_secret_key_here
+```
+### 3️⃣ Start backend
+```bash
+  npm run dev
+```
 
-PORT=4000
+#### Backend runs at:
+```bash
+  🔗 http://localhost:4000
+```
+## 💻 Frontend Setup
 
-JWT_SECRET=your_secret_key_here
+### 1️⃣ Install dependencies
+```bash
+  cd client
+  npm install
+```
+### 2️⃣ Create .env file
+```bash
+  VITE_API_URL=http://localhost:4000
+```
+### 3️⃣ Start frontend
+```bash
+  npm run dev
+```
 
-3️⃣ Start backend
+### Frontend runs at:
+```bash
+  🔗 http://localhost:5173
+```
 
-npm run dev
-
-
-**Backend runs at:**
-
-🔗 http://localhost:4000
-
-**💻 Frontend Setup**
-
-1️⃣ Install dependencies
-
-cd client
-
-npm install
-
-2️⃣ Create .env file
-
-VITE_API_URL=http://localhost:4000
-
-3️⃣ Start frontend
-
-npm run dev
-
-
-**Frontend runs at:**
-
-🔗 http://localhost:5173
-
-
-**🧪 Testing the API**
+## 🧪 Testing the API
+```bash
 
 Login (POST)
 
@@ -153,9 +128,9 @@ Body:
   "password": "admin123"
 }
 
-
-**Employees CRUD:**
-
+```
+### Employees CRUD:
+```bash
 POST /api/employees
 
 GET /api/employees
@@ -163,17 +138,17 @@ GET /api/employees
 PUT /api/employees/:id
 
 DELETE /api/employees/:id
-
+```
 
 **All routes require JWT token.**
 
 
-**🔐 Admin Login**
+### 🔐 Admin Login
 
 <img width="1469" height="852" alt="image" src="https://github.com/user-attachments/assets/5ab05b96-5ba2-4ce2-8ea9-d3a52e311d42" />
 
 
-**🏢 Dashboard**
+### 🏢 Dashboard
 
 <img width="1470" height="880" alt="image" src="https://github.com/user-attachments/assets/d69936ba-3655-42c8-89ce-392aa12819d4" />
 
